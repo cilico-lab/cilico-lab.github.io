@@ -1,2 +1,1 @@
-# cilico
-## ciencia libre participativa
+# cilico - ciencia libre participativa
