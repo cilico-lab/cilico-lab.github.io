@@ -11,7 +11,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    color: #333;
+    color: rgb(191, 192, 197);
     margin-right: 20px;
 }
 nav li.selected a {
