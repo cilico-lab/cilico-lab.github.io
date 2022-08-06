@@ -1,0 +1,93 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-size: 1.35em;
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    color: #333;
+    margin-right: 20px;
+}
+nav li.selected a {
+    color: #1f7099;
+}
+a {
+    text-decoration: none;
+    color: #1f7099;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 2em;
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+}
+h2 {
+    font-size: 1.5em;
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+}
+h3 {
+    font-size: 1.2em;
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+}
+h4 {
+    font-size: 1.2em;
+    padding:0em;
+    margin:0em;
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+}
+h5 {
+    font-size: 1.5em;
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+    color: #c8c8c8;
+    margin-top: 0px;
+    margin-bottom: 1.5em;
+}
+p {
+    font-size: 1.2em;
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+    line-height: 1.4em;
+    color: #333;
+    padding:0px;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    font-size: 1.2em;
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+    line-height: 1.6em;
+    list-style-type: circle;
+    color: #333;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.2em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
