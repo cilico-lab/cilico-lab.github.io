@@ -11,15 +11,15 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    color: rgb(191, 192, 197);
+    color: rgb(190, 190, 190);
     margin-right: 20px;
 }
 nav li.selected a {
-    color: rgb(191, 192, 197);
+    color: rgb(190, 190, 190);
 }
 a {
     text-decoration: none;
-    color: #000000;
+    color: rgb(200, 110, 30);
 }
 a:hover {
     text-decoration: underline;
@@ -45,7 +45,7 @@ h4 {
 h5 {
     font-size: 1.5em;
     font-family: 'Helvetica', 'Sans-Serif';
-    color: #c8c8c8;
+    color: rgb(190, 190, 190);
     margin-top: 0px;
     margin-bottom: 1.5em;
 }
@@ -53,11 +53,11 @@ p {
     font-size: 1.2em;
     font-family: 'Helvetica', 'Sans-Serif';
     line-height: 1.4em;
-    color: #333;
+    color: rgb(0,0,0);
     padding:0px;
 }
 footer {
-    border-top: 1px solid #000000;
+    border-top: 1px solid rgb(190,190,190);
     font-size: 1em;
     text-align: center;
     padding: 10px;
@@ -68,7 +68,7 @@ ul {
     font-family: 'Helvetica', 'Sans-Serif';
     line-height: 1.6em;
     list-style-type: circle;
-    color: #000000;
+    color: rgb(0,0,0);
 }
 
 ul.posts {
